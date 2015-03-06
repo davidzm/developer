@@ -2,83 +2,31 @@
 
 /* Controllers */
 
-var phonecatApp = angular.module('phonecatApp', []);
+var phonecatApp = angular.module('phonecatApp', ['phonecatApp.service']);
 
 
-phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $http) {
-    console.log("1111");
-    $http.get('phones/phones.json').success(function(data) {
-        console.log("2222");
-        $scope.phones = data;
-    });
-    console.log("3333");
-    /*
-    console.log("Parametros: data, status, headers, config");
-    $http.get('phones/phones.json').success(function(data, status, headers, config) {
-        console.log(data);
-        console.log(status);
-        console.log(headers);
-        console.log(config);
+phonecatApp.controller('PhoneListCtrl', ['$scope','MyService',  function($scope,MyService) {
+
+    console.log("##############CASO DE EXITO###################");
+    var promise = MyService.execute({"field1":"aaaaa","field2":"1"});
+    console.log("despues de invocar el servicio caso de exito");
+
+    promise.then(function(resultado) {
+        console.log(resultado);
+    }, function(error) {
+        console.log(error);
     });
 
-    console.log("con Promise");
-    var promisePhones = $http.get('phones/phones.json');
+    console.log("##############CASO DE ERROR###################")
 
-    promisePhones.success(function(data, status, headers, config) {
-        console.log(data);
-        console.log(status);
-        console.log(headers);
-        console.log(config);
-    });
+    var promise2 = MyService.execute({"field1":"aaaaa","field2":"2"});
+    console.log("despues de invocar el servicio caso de error");
 
-    console.log("con Promise then ");
-    var promisePhones = $http.get('phones/phones.json');
-
-    promisePhones.then (
-        function(data) {
-            console.log("exito");
-            console.log(data);
-        },
-        function(data) {
-            console.log("error");
-            console.log(data);
-        },
-        function(data) {
-            console.log("notificacion");
-            console.log(data);
-        }
-    );
-
-
-    console.log("con error");
-    $http.get('phones/phones.jsondddd').success(function(data) {
-        console.log(data);
-    }).error(function(data, status, headers, config) {
-        console.log(data);
-        console.log(status);
-        console.log(headers);
-        console.log(config);
+    promise2.then(function(resultado) {
+        console.log(resultado);
+    }, function(error) {
+        console.log(error);
     });
 
 
-
-    console.log("[ERROR] con Promise then ");
-    var promisePhones = $http.get('phones/phones.jsonssss');
-
-    promisePhones.then (
-        function(data) {
-            console.log("exito");
-            console.log(data);
-        },
-        function(data) {
-            console.log("error");
-            console.log(data);
-        },
-        function(data) {
-            console.log("notificacion");
-            console.log(data);
-        }
-    );
-     */
-  $scope.orderProp = 'age';
 }]);
