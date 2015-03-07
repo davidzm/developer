@@ -1,11 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db67b9e8-1794-4687-802d-521cceaca363" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
+    <list default="true" id="db67b9e8-1794-4687-802d-521cceaca363" name="Default" comment="commit final">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-streak-7.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-streak-7.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-streak-7.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-streak-7.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-streak-7.4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-venue.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-venue.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-venue.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-venue.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-venue.4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/dell-venue.5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/droid-2-global-by-motorola.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/droid-2-global-by-motorola.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/droid-2-global-by-motorola.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/droid-pro-by-motorola.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/droid-pro-by-motorola.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/lg-axis.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/lg-axis.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/lg-axis.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-atrix-4g.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-atrix-4g.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-atrix-4g.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-atrix-4g.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-bravo-with-motoblur.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-bravo-with-motoblur.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-bravo-with-motoblur.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-charm-with-motoblur.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-charm-with-motoblur.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-charm-with-motoblur.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-defy-with-motoblur.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-defy-with-motoblur.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-defy-with-motoblur.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom-with-wi-fi.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom-with-wi-fi.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom-with-wi-fi.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom-with-wi-fi.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom-with-wi-fi.4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom-with-wi-fi.5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/motorola-xoom.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/nexus-s.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/nexus-s.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/nexus-s.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/nexus-s.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-galaxy-tab.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-galaxy-tab.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-galaxy-tab.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-galaxy-tab.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-galaxy-tab.4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-galaxy-tab.5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-galaxy-tab.6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-gem.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-gem.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-gem.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-mesmerize-a-galaxy-s-phone.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-showcase-a-galaxy-s-phone.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-showcase-a-galaxy-s-phone.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-transform.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-transform.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-transform.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-transform.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/samsung-transform.4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/sanyo-zio.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/sanyo-zio.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/sanyo-zio.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-g2.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-g2.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-g2.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-mytouch-4g.0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-mytouch-4g.1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-mytouch-4g.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-mytouch-4g.3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-mytouch-4g.4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/phones/t-mobile-mytouch-4g.5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/partials/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/dell-streak-7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/dell-venue.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/droid-2-global-by-motorola.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/droid-pro-by-motorola.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/lg-axis.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/motorola-atrix-4g.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/motorola-bravo-with-motoblur.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/motorola-charm-with-motoblur.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/motorola-defy-with-motoblur.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/motorola-xoom-with-wi-fi.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/motorola-xoom.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/nexus-s.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/samsung-galaxy-tab.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/samsung-gem.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/samsung-mesmerize-a-galaxy-s-phone.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/samsung-showcase-a-galaxy-s-phone.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/samsung-transform.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/sanyo-zio.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/t-mobile-g2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/phones/t-mobile-mytouch-4g.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/e2e/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/e2e/scenarios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/protractor-conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/controllersSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/directivesSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/filtersSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/servicesSpec.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/http.html" afterPath="$PROJECT_DIR$/app/http.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/services.js" afterPath="$PROJECT_DIR$/app/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/request-to-server.iml" afterPath="$PROJECT_DIR$/.idea/request-to-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/rest.html" afterPath="$PROJECT_DIR$/app/rest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-server.js" afterPath="$PROJECT_DIR$/web-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="request-to-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +152,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web-server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web-server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2730924" vertical-offset="103" max-vertical-offset="615">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3321033" vertical-offset="0" max-vertical-offset="390">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <marker date="1425743192112" expanded="true" signature="0:65" placeholder="{&quot;directory&quot;: &quot;app/bower_components&quot;...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/rest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1035">
+              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/http.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -43,6 +238,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/js/services.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/rest.html" />
+        <option value="$PROJECT_DIR$/app/http.html" />
+        <option value="$PROJECT_DIR$/web-server.js" />
+        <option value="$PROJECT_DIR$/app/.bowerrc" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -104,21 +316,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request-to-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request-to-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -129,16 +327,77 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/angular/angularjs-book-master/chapter4/guthub" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="91" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="107" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1016" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="91" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="107" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1016" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="db67b9e8-1794-4687-802d-521cceaca363" name="Default" comment="" />
@@ -146,28 +405,42 @@
       <option name="number" value="Default" />
       <updated>1425681805844</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit app folder">
+      <created>1425739728295</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1425739728295</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove bower_component folder">
+      <created>1425739943314</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1425739943314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1368" height="708" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24758364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39964157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39247313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50537634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32616487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -187,16 +460,93 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="commit app folder" />
+    <MESSAGE value="remove bower_component folder" />
+    <MESSAGE value="commit final" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8870056" vertical-offset="264" max-vertical-offset="1020">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322034" vertical-offset="247" max-vertical-offset="3375">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/rest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1425743192112" expanded="true" signature="0:65" placeholder="{&quot;directory&quot;: &quot;app/bower_components&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2730924" vertical-offset="103" max-vertical-offset="615">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321033" vertical-offset="0" max-vertical-offset="390">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
