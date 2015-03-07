@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+  <meta charset="utf-8">
+  <title>Google Phone Gallery</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+</head>
+<body >
+
+<form ng-controller="ExampleRestCtrlList" ng-submit="metodo1()" class="form-horizontal">
+    <h3>rest query</h3>
+    <div class="form-actions">
+        <button class="btn btn-primary">Click</button>
+    </div>
+
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="row in documents">
+                <td>{{row._id}}</td>
+                <td>{{row.name}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</form>
+
+<form ng-controller="ExampleRestCtrlGet" ng-submit="metodo2()" class="form-horizontal">
+    <h3>rest get</h3>
+    <label for="documentId"></label><input type="text" id="documentId" ng-model="documentId"/>
+    <span>{{documentObject.name}}</span>
+    <div class="form-actions">
+        <button class="btn btn-primary">Click</button>
+    </div>
+
+</form>
+
+
+<form ng-controller="ExampleRestCtrlNew" ng-submit="metodo3()" class="form-horizontal">
+    <h3>rest INSERT</h3>
+    <label for="documentName"></label><input type="text" id="documentName" ng-model="documentObject.name"/>
+    <span>{{documentObject._id}}</span>
+    <div class="form-actions">
+        <button class="btn btn-primary">Click</button>
+    </div>
+
+</form>
+
+
+
+</body>
+</html>
