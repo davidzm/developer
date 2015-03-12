@@ -155,66 +155,48 @@ phonecatApp.controller('ExampleHttpCtrl', ['$scope', '$http', function($scope,$h
 
 
 
-phonecatApp.controller('ExampleRestCtrlList', ['$scope', '$http', 'DocumentServiceRest', function($scope,$http,DocumentServiceRest) {
+phonecatApp.controller('ExampleRestCtrl', ['$scope', '$http','Document', function($scope,$http,Document) {
 
-    $scope.metodo1 = function() {
-        var promisePhones = DocumentServiceRest.search();
+    $scope.document = new Document();
 
-        promisePhones.then (
-            function(data) {
-                console.log("exito");
-                console.log(data);
+    $scope.query = function() {
 
-                $scope.documents= data;
-            },
-            function(data) {
-                console.log("error");
-                console.log(data);
-            }
-        );
-    };
-
-}]);
-
-
-phonecatApp.controller('ExampleRestCtrlGet', ['$scope', '$http', 'DocumentServiceRest', function($scope,$http,DocumentServiceRest) {
-
-    $scope.metodo2 = function() {
-        console.log($scope.documentId);
-        var promisePhones = DocumentServiceRest.get($scope.documentId);
-
-        promisePhones.then (
-            function(data) {
-                console.log("exito");
-                console.log(data);
-                $scope.documentObject= data;
-            },
-            function(data) {
-                console.log("error");
-                console.log(data);
-            }
-        );
-    };
-
-}]);
-
-
-phonecatApp.controller('ExampleRestCtrlNew', ['$scope', '$http', 'Document', function($scope,$http,Document) {
-    $scope.documentObject = new Document();
-
-    $scope.metodo3 = function() {
-        console.log($scope.documentObject );
-
-
-
-
-
-        $scope.documentObject.$save(function(documentObject) {
-            console.log("exito");
-            console.log(documentObject);
-            $scope.documentObject= new Document();
+        Document.query(function(documents) {
+            $scope.documents= documents;
+        }, function() {
+            console.log("error query documents");
         });
 
     };
+
+    $scope.add = function (){
+        $scope.document = new Document();
+    };
+
+    $scope.remove = function (index){
+
+        var documentSelected = $scope.documents[index];
+
+        documentSelected.$delete(function(res) {
+            console.log(res);
+            $scope.documents.splice(index, 1);
+        });
+
+    };
+
+    $scope.edit= function (index){
+
+        $scope.document = $scope.documents[index];
+
+    };
+
+    $scope.save = function (){
+
+        $scope.document.$save(function(res){
+            console.log(res);
+            $scope.document = new Document();
+        });
+
+    }
 
 }]);

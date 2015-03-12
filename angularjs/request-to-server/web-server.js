@@ -64,7 +64,7 @@ app.post('/execute', function(req, res) {
 ////////////////////////////////////////////////////////
 
 app.get('/collections/:collectionName', function(req, res, next) {
-    req.collection.find({} ,{limit: 10, sort: {'_id': -1}}).toArray(function(e, results){
+    req.collection.find({} ,{limit: 30, sort: {'_id': -1}}).toArray(function(e, results){
         if (e) return next(e)
         res.send(results)
     })
@@ -78,7 +78,11 @@ app.post('/collections/:collectionName', function(req, res, next) {
 });
 
 app.post('/collections/:collectionName/:id', function(req, res, next) {
-    req.collection.updateById(req.params.id, {$set: req.body}, {safe: true, multi: false}, function(e, result){
+    var document = {};
+    document.name= req.body.name;
+    document.lastName= req.body.lastName;
+    document.email= req.body.email;
+    req.collection.updateById(req.params.id, {$set: document}, {safe: true, multi: false}, function(e, result){
         if (e) return next(e)
         res.send((result === 1) ? {msg:'success'} : {msg: 'error'})
     })
